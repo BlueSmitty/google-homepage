@@ -1,88 +1,112 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
-*/
+img {
+  display: block;
+  width: 40%;
+  margin: auto;
+  height: auto;
+  overflow: hidden;
+  align-items:center;
+  background-color: rgb(100,100,100);
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, output, ruby, section, summary,
-time, mark, audio, video {
+
+input {
+  color: white;
+  width:37.75%;
+  height:48px;
+  font-size:14pt;
+  padding-left:20px;
+	padding-right:20px;
+  background: rgb(255,255,255);
+  border:solid;
+  border-width: thin;
+  border-color:rgb(200,200,200);
+  box-shadow: 10px 10px 25px rgb(150,150,150);
+}
+
+[class="sign-in"] {
+  color: rgb(255,255,255);
+  background-color: #5A85EB;
+  border-radius: 3px;
+}
+
+ul {
+  list-style-type: none;
   margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-.navigationbar
-{
-  list-style-type:none;
-  display: block;
-   padding: 10px;
-   font-size: 12pt;
-   color: grey;
-}
-
-.nav-barleft{
-  float:left;
-}
-
-.nav-barright{
-  float:right;
+  padding: 0 18px 0 0;
+  overflow: hidden;
+  background-color: rgb(255,255,255);
 }
 
 li{
-  display:inline;
-}
-
-#google-logo{
-  align-content: center;
-}
-
-#searchfield
-
-.searchbuttons
-
-.footerbar {
-  background-color: light-grey;
-}
-
-.footerbarleft{
   float:left;
 }
 
-.footerbarright{
-  float:right;
+li a {
+  float:left;
+  text-align: center;
+  padding: 6px 16px 6px;
+  text-decoration: none;
+  font-family: Courier sans-serif;
+  font-size: .95em;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: rgb(50,50,50);
+}
+
+i {
+  display:block;
+  padding: 6px 16px 6px;
+  color: rgb(150,150,150);
+}
+
+i:hover {
+  color: rgb(0,0,0);
+}
+
+.btn-group {
+  display; inline-block;
+  background: none;
+  color: rgb(190,190,190);
+  padding: 0;
+  font-family: Courier sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  margin: 40px auto;
+
+}
+
+a.button-one {
+  text-decoration: none;
+  color: rgb(125,125,125);
+  background-color: rgb(230,230,230);
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+a.button-two {
+  text-decoration: none;
+  color: rgb(125,125,125);
+  background-color: rgb(230,230,230);
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+a.button-one:hover {
+  border: solid black 1px;
+  color: black
+}
+
+a.button-two:hover {
+  border: solid black 1px;
+  color: black
 }
